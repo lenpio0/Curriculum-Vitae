@@ -190,7 +190,7 @@ main .profile{
 }
 
 .profile-background{
-    height: 300px;
+    height: 150px;
 }
 
 .profile-image{
@@ -231,10 +231,14 @@ main .profile{
     font-weight: 400;
 }
 
+.profile-social {
+    padding-bottom: 50px;
+}
+
 .profile-social a{
     transition: color 0.3s ease 0s;
     margin: 0 6px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .profile-social a:hover{
@@ -343,7 +347,7 @@ main .profile{
 }
 
 .about-services article .fas{
-    margin: 0;
+    margin: auto;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -373,7 +377,7 @@ main .profile{
     margin: 0;
     text-align: left;
     padding: 20px 18px;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 13px;
     color: #171717;
     font-weight: 500;
@@ -527,6 +531,20 @@ main .contact{
     font-size: 13px;
 }
 
+.contact-link {
+    text-decoration: underline;
+    transition: color 300ms;
+}
+
+.contact-link:hover {
+    color: #ff831d;
+}
+
+.contact-link.fab {
+    text-decoration: none;
+    font-size: 20px;
+}
+
 
 @media only screen and (min-width: 540px){
     header{
@@ -618,5 +636,13 @@ main .contact{
 
     main .contact {
         margin-bottom: 0;
+    }
+
+    .profile-background {
+        height: 300px;
+    }
+
+    .profile-social {
+        padding-bottom: 0px;
     }
 }
