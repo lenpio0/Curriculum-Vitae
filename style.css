@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(145deg, rgba(235,119,24,1) 35%, rgba(252,165,93,1) 100%);
+    /* background: linear-gradient(145deg, rgba(235,119,24,1) 35%, rgba(252,165,93,1) 100%); */
     padding: 0;
     margin: 0;
     border: none;
@@ -19,8 +19,9 @@ a {
 
 
 .background.gradient {
-    background: rgb(235,119,24);
-    background: linear-gradient(145deg, rgba(235,119,24,1) 35%, rgba(252,165,93,1) 100%);
+    /* background: rgb(235,119,24);
+    background: linear-gradient(145deg, rgba(235,119,24,1) 35%, rgba(252,165,93,1) 100%); */
+    background-image:url('Meteor.svg');
     position: fixed;
     overflow: hidden;
     top: 0;
