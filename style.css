@@ -19,15 +19,16 @@ a {
 
 
 .background.gradient {
-    /* background: rgb(235,119,24);
-    background: linear-gradient(145deg, rgba(235,119,24,1) 35%, rgba(252,165,93,1) 100%); */
-    background-image:url('images/Meteor.svg');
     position: fixed;
     overflow: hidden;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: -10;
+    margin:auto;
+    background:#eb7718;
+    display:block;
 }
 
 input, textarea, button {
@@ -330,6 +331,7 @@ main .profile{
    display: flex;
    flex-wrap: wrap;
    position: relative;
+   justify-content: center;
 }
 .about-services >div:after{
     content: '';
@@ -512,9 +514,9 @@ main .profile{
 }
 
 .project {
-    background-size: 130%;
+    background-size: 140%;
     background-position: center;
-    width: 215px;
+    width: 200px;
     height: 250px;
     overflow-y: hidden;
     margin: 30px 15px 0 15px;
@@ -526,6 +528,7 @@ main .profile{
 .projects-list > .line-left {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .rps-project {
@@ -556,6 +559,7 @@ main .profile{
 .project:hover {
     background-size: 150%;
 }
+
 .project:hover > a > div {
     transform: translate(0, -150px);
     background-color: #000000dd;
@@ -596,6 +600,12 @@ main .contact{
     font-size: 20px;
 }
 
+@media only screen and (max-width: 540px){
+    .resume-skills h4 {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 @media only screen and (min-width: 540px){
     header{
@@ -697,3 +707,31 @@ main .contact{
         padding-bottom: 0px;
     }
 }
+
+@media only screen and (min-width: 2560px) {
+    body {
+        overflow: hidden;
+    }
+    .page {
+        transform: scale(1.5);
+        
+    }
+}
+
+@media only screen and (min-width: 3440px) {
+    body {
+        overflow: hidden;
+    }
+    .page {
+        transform: scale(2);
+        
+    }
+}
+
+@keyframes ld-speed-dash {
+    0% { transform: translate(0,-2538.9071700822983px); }
+    100% { transform: translate(0,2538.9071700822983px); }
+  }
+  .ld.ld-speed-dash {
+    animation: ld-speed-dash 100s linear infinite;
+  }
