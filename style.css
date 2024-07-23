@@ -610,11 +610,18 @@ main .contact{
         display: flex;
         flex-direction: column;
     }
+    .page{
+        margin: 2%;
+    }
+    header{
+        width: 96%;
+    }
 }
 
 @media only screen and (min-width: 540px){
     header{
         left: calc(50% - 270px);
+
     }
 }
 
