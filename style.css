@@ -531,6 +531,10 @@ main .profile{
     justify-content: center;
 }
 
+.zygo-project {
+    background-image: url('images/zygoScreenshot.png');
+}
+
 .rps-project {
     background-image: url('images/rpsScreenshot.png');
 }
@@ -554,6 +558,7 @@ main .profile{
     background-color: #000000aa;
     color: #fff;
     height: 175px;
+    padding-top: 2px;
 }
 
 .project p {
