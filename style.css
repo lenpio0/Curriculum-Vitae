@@ -531,6 +531,10 @@ main .profile{
     justify-content: center;
 }
 
+.dm-project {
+    background-image: url('images/DMScreenshot.png');
+}
+
 .zygo-project {
     background-image: url('images/zygoScreenshot.png');
 }
@@ -555,8 +559,8 @@ main .profile{
     transition: transform 600ms, background-color 600ms, color 600ms;
     position: relative;
     top: 225px;
-    background-color: #000000aa;
-    color: #fff;
+    background-color: #ffffffee;
+    color: #000;
     height: 175px;
     padding-top: 2px;
 }
@@ -572,7 +576,7 @@ main .profile{
 
 .project:hover > a > div {
     transform: translate(0, -150px);
-    background-color: #000000dd;
+    background-color: #000000ee;
     color: #ff943c;
 }
 
